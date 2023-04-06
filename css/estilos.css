@@ -29,7 +29,7 @@ html {
 }
 
 @font-face {
-    font-family: 'Akzidenz-Grotesk Pro Med';
+    font-family: 'Akzidenz-Grotesk Pro';
     src: url('../fonts/AkzidenzGroteskPro-Md.eot');
     src: url('../fonts/AkzidenzGroteskPro-Md.eot?#iefix') format('embedded-opentype'),
         url('../fonts/AkzidenzGroteskPro-Md.woff2') format('woff2'),
@@ -37,7 +37,7 @@ html {
         url('../fonts/AkzidenzGroteskPro-Md.ttf') format('truetype'),
         url('../fonts/AkzidenzGroteskPro-Md.svg#AkzidenzGroteskPro-Md') format('svg');
     font-weight: 500;
-    font-style: bold;
+    font-style: normal;
     font-display: swap;
 }
 
