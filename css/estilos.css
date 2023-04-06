@@ -413,6 +413,10 @@ main.inventario div#contacto p {
     main div#contacto div.col:last-child {
         margin-bottom: 0;
     }
+
+    footer div.col2 {
+        padding: 0 20px;
+    }
 }
 
 @media screen and (max-width: 375px) {
