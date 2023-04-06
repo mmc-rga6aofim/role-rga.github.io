@@ -37,7 +37,7 @@ html {
         url('../fonts/AkzidenzGroteskPro-Md.ttf') format('truetype'),
         url('../fonts/AkzidenzGroteskPro-Md.svg#AkzidenzGroteskPro-Md') format('svg');
     font-weight: 500;
-    font-style: normal;
+    font-style: bold;
     font-display: swap;
 }
 
