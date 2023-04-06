@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/Recurso 6.png" type="image/x-icon">
+    <title>Inventario | ROLE</title>
+</head>
+
+<body>
+    <nav>
+        <div class="gen">
+            <div class="col2">
+                <div class="center">
+
+                </div>
+            </div>
+            <div class="col2">
+                <ul class="menu">
+                    <a href="index.html">
+                        Inicio
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="general">
+        <header>
+            <div class="gen">
+                <div class="col2">
+                    <h1>inventario</h1>
+                </div>
+                <div class="col2">
+                    <h1 id="current_date"></h1>
+                    <!--FECHA ACTUAL-->
+                    <script>
+                        function updateClock() {
+                            date = new Date();
+                            year = date.getFullYear().toString();
+                            month = date.getMonth() + 1;
+                            day = date.getDate();
+                            hours = date.getHours();
+                            minutes = date.getMinutes();
+                            document.getElementById("current_date").innerHTML = day + "/" + month + "/" + year + " " +
+                                "<br>" +
+                                hours + ":" + ("0" + minutes).slice(-2) + " " + "GMT-6";
+                        }
+
+                        updateClock(); // llama a la función para que muestre la hora inmediatamente
+
+                        setInterval(updateClock, 1000); // llama a la función cada segundo para actualizar la hora
+                    </script>
+                </div>
+            </div>
+        </header>
+        <main class="inventario">
+            <div class="gen">
+                <div class="col" id="vacio">
+                </div>
+                <div class="col3">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Lorem</th>
+                                <th>Lorem</th>
+                                <th>Lorem</th>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                                <td>Lorem</td>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="gen" id="contacto">
+                <div class="col" id="doble">
+                    <a href="#">
+                        <p class="parrafo">+52 443 131 7175</p>
+                    </a>
+                    <a href="#">
+                        <p class="parrafo">mailto@loremipsum.com</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://goo.gl/maps/5dLhJok3VDNQPJXZ6">
+                        <p class="parrafo">Perif. Paseo de la República 1149, Los Ejidos, 58180 Morelia, Mich.</p>
+                    </a>
+                </div>
+                <div class="col" id="vacio"></div>
+                <div class="col">
+                    <a href="#">
+                        <p class="parrafo">Facebook</p>
+                    </a>
+                    <a href="#">
+                        <p class="parrafo">Instagram</p>
+                    </a>
+                    <a href="#">
+                        <p class="parrafo">Twitter</p>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </section>
+    <footer>
+        <div class="gen">
+            <div class="col2">
+                <a href="#contacto">
+                    contacto
+                </a>
+            </div>
+            <div class="col2">
+                <p class="parrafo">
+                    © 2023 ROLE. Todos los derechos reservados
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
